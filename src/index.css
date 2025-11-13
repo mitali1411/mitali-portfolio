@@ -173,12 +173,22 @@ body{
 .text-animation span{
     position: relative;
 }
-.text-animation span::before{
-    content: 'Full Stack Developer';
+/* .text-animation span::before{
+    content: '';
     color: #3591d3;
     animation: words 20s infinite;
+} */
+
+
+/* ////////////////////////////////// */
+.text-animation span::before{
+    content: 'Full Stack developer';
+    color: #3591d3;
+    animation: animate 4s steps(12) infinite; 
 }
-.text-animation span::after{
+
+
+/* .text-animation span::after{
     content: "";
     position: absolute;
     width: calc(100% + 8px);
@@ -186,7 +196,7 @@ body{
     border-left: 3px solid #081b29;
     right: -8px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
+} */
 
 
 
@@ -615,9 +625,18 @@ footer b{
     80%,
     85%{
         width: calc(100% + 8px);
-    }
+    }  
 }
 
+/* ///////////// */
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
 
 
 @media(max-width : 768px){
