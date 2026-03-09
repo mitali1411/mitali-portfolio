@@ -14,7 +14,7 @@ const Home = () => {
       <span>
       <a href="https://github.com/mitali1411" target='_blank'><i className='bx bxl-github'></i></a>
       <a href="https://www.linkedin.com/in/mitali-rasaniya-436968230/" target='_blank'><i className='bx bxl-linkedin'></i></a>
-      <a href="skype:live:.cid.1407a665c1119355"><i class='bx bxl-skype'></i></a>
+      <a href="skype:live:.cid.1407a665c1119355"><i className='bx bxl-skype'></i></a>
       <a href="mailto:mitalirasaniya14@gmail.com" target='_blank'><i className='bx bxl-gmail'></i></a>
       </span>
     

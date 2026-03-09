@@ -40,17 +40,17 @@ const Contact = () => {
 
           <div className="address">
           <span>
-          <i class='bx bxs-envelope'></i>
+          <i className='bx bxs-envelope'></i>
           <a href="mailto:mitalirasaniya@gmail.com" target='_blank'>mitalirasaniya@gmail.com</a>
           </span>
 
           <span>
-          <i class='bx bxs-phone-call' ></i>
+          <i className='bx bxs-phone-call' ></i>
           <a href="https://wa.me/123456789" target='_blank'>+91-1234567890</a>
           </span>
 
           <span>
-          <i class='bx bx-current-location'></i>
+          <i className='bx bx-current-location'></i>
           <a>Indore, Bharat</a>
           </span>
           </div>

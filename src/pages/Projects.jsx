@@ -30,12 +30,12 @@ const Projects = () => {
       <h3 className='mt-4'>MY <span>PROJECTS</span></h3>
       <div className="projects">
       {project.map((item, index) => 
-          <div className="box1">
+          <div className="box1" key={index}>
             <img src={item.Image} alt="" />
             <div className="layer">
               <h4>{item.Title}</h4>
               <p>{item.Description}</p>
-              <a href={item.Link} target='#'><i class='bx bx-link-external'></i></a>
+              <a href={item.Link} target='#'><i className='bx bx-link-external'></i></a>
             </div>
           </div>
       )}
